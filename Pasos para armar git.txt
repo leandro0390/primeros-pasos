@@ -22,4 +22,6 @@ por ultimo, podemos fusionar la rama secundaria creada con la rama main, para qu
 
 Tambien se puede fusionar directamente desde el github pull request
 
-esta es una pruebita
+para borrar una rama, se utiliza el comando git branch -D nombre de la rama.
+
+para borrar una rama remota : git push origin --delete (nombre de rama a borrar)
