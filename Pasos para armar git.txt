@@ -1,0 +1,8 @@
+1) inicializar repositorio local, con el comando "git init" en git bash (con el click derecho dentro de la carpeta)
+2) Añadir los archivos creados, por primera vez con el comando ¨git add .¨
+3) Guardar cada modificacion como un punto de control, con el comando ¨git commit -m ¨(mensaje o comentario)¨ ¨
+4) Crear una nueva rama, con el comando ¨git branch -M (nombre a elegir),¨ o elegir una ya creada
+5) Linkear el repositorio local con el remoto en github (primero, crear un nuevo repositorio o elegir uno ya creado, en la página)
+  para esto, usar el comando ¨git remote add origin (y el link del repositorio online)¨
+
+6) Subir el archivo a githubb, con el comando ¨git push -u (nombre de la rama)
