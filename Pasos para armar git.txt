@@ -6,3 +6,9 @@
   para esto, usar el comando ¨git remote add origin (y el link del repositorio online)¨
 
 6) Subir el archivo a githubb, con el comando ¨git push -u (nombre de la rama)
+
+CREAR RAMA, MOVERSE A RAMAS Y MODIFICAR
+
+Para crear una rama (no la principal) se usa el comando "git branch", seguido de un nombre.
+
+Para ingresar a esta rama, o a cualquiera que uno desee trabajar, se ingresa el comando "git checkout" seguido del nombre de la rama en cuestion
