@@ -12,3 +12,10 @@ CREAR RAMA, MOVERSE A RAMAS Y MODIFICAR
 Para crear una rama (no la principal) se usa el comando "git branch", seguido de un nombre.
 
 Para ingresar a esta rama, o a cualquiera que uno desee trabajar, se ingresa el comando "git checkout" seguido del nombre de la rama en cuestion
+
+dentro de esta rama nueva, se deben agregar los archivos (con el comando add) y comitearlos, como si estuvieramos en la rama principal.
+
+Despues, para que esta rama nueva se vea reflejada en el reposiotorio remoto, se usa el comando "git push origin (nombre de la rama)"
+
+por ultimo, podemos fusionar la rama secundaria creada con la rama main, para que las modificaciones se agreguen a la rama principal. Esto se hace con el comando 
+"git merge (nombre de la rama a fusionar) -m (mensaje). Siempre este comando se introduce dentro de la rama principal,
