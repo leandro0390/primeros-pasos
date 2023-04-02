@@ -21,3 +21,5 @@ por ultimo, podemos fusionar la rama secundaria creada con la rama main, para qu
 "git merge (nombre de la rama a fusionar) -m (mensaje). Siempre este comando se introduce dentro de la rama principal.
 
 Tambien se puede fusionar directamente desde el github pull request
+
+esta es una pruebita
